@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import Card from "./Card";
 
 it("renders App", () => {
-  render(<App />);
+  render(<Card />);
 });
 
 it("matches snapshot", function () {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<Card />);
 });
